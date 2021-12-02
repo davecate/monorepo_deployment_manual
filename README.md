@@ -73,4 +73,4 @@ Click "Edit", then click on your front-end subdirectory, then click "Continue".
 Click "Deploy".
 
  ## 2. Done
-Your app is deployed and every time you change the GitHub monorepo's main branch, it will redeploy.
+Your app is deployed and every time you change the GitHub monorepo's main branch, it will redeploy — no subtree pushing required.
