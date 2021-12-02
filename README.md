@@ -1,6 +1,10 @@
 # Greetings, coder
 You've stumbled upon illustrated instructions for deploying your full-stack app using a monorepo with a front-end subdirectory and a back-end subdirectory. 
 
+You can view the repo I used for this manual here: https://github.com/davecate/WeLoveMovies 
+
+You can view the deployed app here: https://dc-welovemovies.vercel.app
+
 # Instructions
 Pre-requisites:
   - [ ] You have GitHub, Heroku and Vercel accounts.
