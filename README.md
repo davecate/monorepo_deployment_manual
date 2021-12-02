@@ -77,3 +77,5 @@ Click "Deploy".
 
  ## 2. Done
 Your app is deployed and every time you push changes to the GitHub monorepo's main branch, it will redeploy — no subtree pushing required.
+![Screen Shot 2021-12-02 at 4 32 00 PM](https://user-images.githubusercontent.com/86169488/144518335-20cfc9cf-cb16-46ca-bb38-c0a7f2f1d364.png)
+
