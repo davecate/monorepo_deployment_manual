@@ -9,12 +9,12 @@ Pre-requisites:
 
 ## 0. Back-end: Heroku
 ### 0.0 Create a new Heroku app
-![Screen Shot 2021-12-01 at 7 15 37 PM](https://user-images.githubusercontent.com/86169488/144366937-3a8b42b4-84e3-4f65-8ba9-0583310b3f7a.png)
+![Screen Shot 2021-12-01 at 7 15 37 PM](https://user-images.githubusercontent.com/86169488/144517209-5939d68e-3646-42fc-bd6c-8aff496ee64d.png)
 
 ### 0.1 Navigate to "Settings"
-![Screen Shot 2021-12-01 at 7 47 59 PM](https://user-images.githubusercontent.com/86169488/144367001-d130726f-d71c-47f0-a9fd-d5e4e0f8ceab.png)
+![Screen Shot 2021-12-01 at 7 47 59 PM](https://user-images.githubusercontent.com/86169488/144517246-2f77feba-748d-4e18-9316-26d2fd4fc50a.png)
 
-#### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
+### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
 Click "Reveal Config Vars" and add the following variables:
 
   Subdirectory variable: used by the buildack to find the subdirectory.
@@ -33,7 +33,7 @@ One more time:
  - [ ] heroku/nodejs
 
 ### 0.2 Navigate to "Deploy"
-![Screen Shot 2021-12-01 at 7 16 43 PM](https://user-images.githubusercontent.com/86169488/144367034-f47b248d-c1a5-4765-a9e1-642dfc4841eb.png)
+![Screen Shot 2021-12-01 at 7 16 43 PM](https://user-images.githubusercontent.com/86169488/144517262-faa3d838-2d7a-4389-943e-b4048bc51c96.png)
 
 #### 0.2.0 Deployment method
 Select Github
@@ -46,13 +46,13 @@ If you can't wait for your next push to GitHub, click "Deploy Branch" to deploy 
 
 ## 1. Front-end: Vercel
 ### 1.0 Create a new Vercel project
-![Screen Shot 2021-12-01 at 10 34 43 PM](https://user-images.githubusercontent.com/86169488/144367098-4e5e0048-aad1-4937-b4d4-3a125be4a1d7.png)
+![Screen Shot 2021-12-02 at 12 08 32 AM copy](https://user-images.githubusercontent.com/86169488/144517333-ca700ea4-ea3a-4385-9b61-9d3f5a211252.png)
 
-#### 1.0.1 Import Git Repository
+#### 1.0.0 Import Git Repository
 Click the "Select a Git Namespace" field, then click "Add GitHub Namespace". This will open the Vercel installer on GitHub.
 
 ### 1.1 Install Vercel
-![Screen Shot 2021-12-01 at 10 54 27 PM](https://user-images.githubusercontent.com/86169488/144367159-a4e592bf-3a41-48c7-9519-c6e83295461a.png)
+![Screen Shot 2021-12-01 at 10 54 27 PM](https://user-images.githubusercontent.com/86169488/144517705-fb95178b-8e37-4733-9a03-3c2f1abda9fe.png)
 
 Click on the desired GitHub account.
 
@@ -61,15 +61,18 @@ Choose your installation scope: "All repositories" or "Only select repositories"
 Click "Install" to return to Vercel.
 
 ### 1.2 Import Repository
+![Screen Shot 2021-12-02 at 12 08 32 AM](https://user-images.githubusercontent.com/86169488/144517935-2635bab6-875a-4fde-a114-f54a4371f84f.png)
+
 Click "Import" on the desired repo.
-![Screen Shot 2021-12-02 at 12 08 32 AM](https://user-images.githubusercontent.com/86169488/144367354-e85b7f75-7813-4be2-91c5-cc11aba668a1.png)
 
 ### 1.3 Configure Project
-![Screen Shot 2021-12-01 at 11 39 03 PM](https://user-images.githubusercontent.com/86169488/144367377-1e00ec92-fed1-43e1-82a6-173f335fc034.png)
+![Screen Shot 2021-12-02 at 4 46 36 PM](https://user-images.githubusercontent.com/86169488/144517948-25d5f155-cb8a-448e-9402-c89d1e60e3b1.png)
 
-#### 1.3.0 Root Directory
+#### 1.3.0 Framework Preset
+Select "Create React App'.
+#### 1.3.1 Root Directory
 Click "Edit", then click on your front-end subdirectory, then click "Continue".
-#### 1.3.1 Deploy
+#### 1.3.2 Deploy
 Click "Deploy".
 
  ## 2. Done
