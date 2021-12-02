@@ -16,6 +16,7 @@ Pre-requisites:
 
 #### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
 Click "Reveal Config Vars" and add the following variables:
+
   Subdirectory variable: used by the buildack to find the subdirectory.
   - [ ] key: APP_BASE value: name of back-end subdirectory.
 
