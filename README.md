@@ -9,10 +9,10 @@ Pre-requisites:
 
 ## 0. Back-end: Heroku
 ### 0.0 Create a new Heroku app
-![Screen Shot 2021-12-01 at 7 15 37 PM](https://user-images.githubusercontent.com/86169488/144517209-5939d68e-3646-42fc-bd6c-8aff496ee64d.png)
+![Screen Shot 2021-12-01 at 7 15 37 PM](https://user-images.githubusercontent.com/86169488/144518106-5139e65f-88de-4398-aa71-602d382326c6.png)
 
 ### 0.1 Navigate to "Settings"
-![Screen Shot 2021-12-01 at 7 47 59 PM](https://user-images.githubusercontent.com/86169488/144517246-2f77feba-748d-4e18-9316-26d2fd4fc50a.png)
+![Screen Shot 2021-12-01 at 7 47 59 PM](https://user-images.githubusercontent.com/86169488/144518177-8f8a8043-1a2b-46e7-a955-fd5067ba3af3.png)
 
 ### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
 Click "Reveal Config Vars" and add the following variables:
