@@ -18,10 +18,10 @@ Pre-requisites:
 Click "Reveal Config Vars" and add the following variables:
 
   Subdirectory variable: used by the buildack to find the subdirectory.
-  - [ ] key: APP_BASE value: name of back-end subdirectory.
+  - [ ] key: APP_BASE - [ ] value: name of back-end subdirectory.
 
   Database url variable: used by your app to connect to its database. Its key MUST match the environment variable referenced in your code's database configuration (e.g. knexfile.js).
-  - [ ] key: YOUR_DATABASE_VARIABLE value: your database url.
+  - [ ] key: YOUR_DATABASE_VARIABLE - [ ] value: your database url.
 
 #### 0.1.1 Buildpacks
 Click "Add buildpack" and enter the following URL:
