@@ -18,7 +18,7 @@ Pre-requisites:
 ### 0.1 Navigate to "Settings"
 ![Screen Shot 2021-12-01 at 7 47 59 PM](https://user-images.githubusercontent.com/86169488/144518177-8f8a8043-1a2b-46e7-a955-fd5067ba3af3.png)
 
-### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
+#### 0.1.0 Config Vars (equivalent to .env vars in Node.js)
 Click "Reveal Config Vars" and add the following variables:
 
   Subdirectory variable: used by the buildack to find the subdirectory.
